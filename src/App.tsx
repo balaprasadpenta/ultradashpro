@@ -1,7 +1,7 @@
-import { useTheme } from "./app/providers/theme-provider";
+import { useTheme } from "./app/providers/use-theme";
 
 function App() {
-  const {theme, toggleTheme} = useTheme();
+  const { theme, toggleTheme } = useTheme();
   return (
     <>
       <div className="text-7xl text-black justify-center items-center">
