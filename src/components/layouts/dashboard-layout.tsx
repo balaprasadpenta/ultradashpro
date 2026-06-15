@@ -11,6 +11,7 @@ const DashboardLayout = () => {
           <NavLink to="/watchlist">WatchList</NavLink>
           <NavLink to="/analytics">Analytics</NavLink>
           <NavLink to="/settings">Settings</NavLink>
+          <NavLink to="*">Randomroute</NavLink>
         </nav>
       </aside>
 
